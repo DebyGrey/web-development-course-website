@@ -24,7 +24,7 @@ if (closeBtn) {
 const featuredSpeakers = [
   {
     id: 1,
-    speakerImg: '../assets/img/speakers/speaker-01.png',
+    speakerImg: '../assets/img/speaker-01.png',
     speakerName: 'Yochai Benkler',
     speakerPosition:
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
@@ -33,7 +33,7 @@ const featuredSpeakers = [
   },
   {
     id: 2,
-    speakerImg: '../assets/img/speakers/speaker-02.png',
+    speakerImg: '../assets/img/speaker-02.png',
     speakerName: 'Kilnam Chon',
     speakerPosition: '',
     speakerBio:
@@ -41,7 +41,7 @@ const featuredSpeakers = [
   },
   {
     id: 3,
-    speakerImg: '../assets/img/speakers/speaker-03.png',
+    speakerImg: '../assets/img/speaker-03.png',
     speakerName: 'SohYeong Noh',
     speakerPosition:
       'Director of Art Centre Nabi and a board member of CC Korea',
@@ -50,7 +50,7 @@ const featuredSpeakers = [
   },
   {
     id: 4,
-    speakerImg: '../assets/img/speakers/speaker-04.png',
+    speakerImg: '../assets/img/speaker-04.png',
     speakerName: 'Julia Leda',
     speakerPosition: 'President of Young Pirates of Europe',
     speakerBio:
@@ -58,7 +58,7 @@ const featuredSpeakers = [
   },
   {
     id: 5,
-    speakerImg: '../assets/img/speakers/speaker-05.png',
+    speakerImg: '../assets/img/speaker-05.png',
     speakerName: 'Lila tretikov',
     speakerPosition: 'Executive Director of the Wikimedia Foundation',
     speakerBio:
@@ -66,7 +66,7 @@ const featuredSpeakers = [
   },
   {
     id: 6,
-    speakerImg: '../assets/img/speakers/speaker-06.png',
+    speakerImg: '../assets/img/speaker-06.png',
     speakerName: 'Ryan Merkley',
     speakerPosition:
       'CEO of Creativve Commons, ex COO of the Mozilla Foundation',

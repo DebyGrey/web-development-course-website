@@ -427,7 +427,8 @@ header {
     padding: 5% 3.4%;
     background: url(../assets/img/program-bg.png), #282b32;
     width: 100%;
-    height: 662px;
+
+    /* height: 662px; */
   }
 
   /* program */
