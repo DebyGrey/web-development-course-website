@@ -94,7 +94,9 @@ function renderFeaturedSpeakers() {
 }</p>
             <div class="title-underline-2"></div>
           </div> 
-          <p class="speaker-desc custom-black-B text-9">${speakerData.speakerBio}</p>
+          <p class="speaker-desc custom-gray-10 text-9">${
+  speakerData.speakerBio
+}</p>
         </div>
       </div>
     `,
@@ -102,14 +104,14 @@ function renderFeaturedSpeakers() {
 
   const speakerSection = `
     <div class="speakers-section-title">
-      <h3 class="text-20"> Featured Speakers </h3> 
+      <h3 class="text-20 big-text-30"> Featured Speakers </h3> 
       <div class="title-underline"></div>
     </div>
     <div class="speakers-group">
       ${speakerItems.join('')}
     </div>
-    <button class="see-more-btn more-btn text-11">MORE <i class="fa-solid fa-angle-down down-arrow "></i></button>
-    <button class="see-less-btn more-btn text-11 hide-btn">LESS <i class="fa-solid fa-angle-up down-arrow"></i></button>
+    <button class="see-more-btn more-btn text-11 custom-gray-10">MORE <i class="fa-solid fa-angle-down down-arrow custom-red text-14"></i></button>
+    <button class="see-less-btn more-btn text-11 custom-gray-10 hide-btn">LESS <i class="fa-solid fa-angle-up down-arrow custom-red text-14"></i></button>
   `;
 
   speakersContent.innerHTML = speakerSection;

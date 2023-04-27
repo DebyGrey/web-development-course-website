@@ -14,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -25,7 +26,6 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [⭐️ Credits](#credits)
 - [🙏 Acknowledgements](#acknowledgements)
 
 <!-- PROJECT DESCRIPTION -->
@@ -33,7 +33,6 @@
 # 📖 PORTFOLIO WEBSITE <a name="about-project"></a>
 
 **Website Development Course Bootcamp** is a website which provides an online platform to learn web development by recieving lessons from different preofessionals in the field.
-<p>Link to deployed project: [Capstone project - A website for an upcoming conference](https://debygrey.github.io/web-development-course-website/) </p>
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -43,9 +42,6 @@
 
 <details>
   <summary>HTML5, CSS3 & Javascript</summary>
-  <!-- <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul> -->
 </details>
 
 <!-- Features -->
@@ -57,7 +53,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Link to live project: [Capstone project - A website for an upcoming conference](https://debygrey.github.io/web-development-course-website/)
+- Link to project demo: [Capstone project - Project demo](https://www.loom.com/share/b736aa959e014557a41959c866004862)
 
 
 <!-- GETTING STARTED -->
@@ -153,21 +154,14 @@ If you like this project, kindly follow me on my social media handles listed abo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CREDITS -->
-
-## 🙏 Credits <a name="credits"></a>
-
-
-Original Design Idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to thank everyone who made this project possible.
 
-I would like to thank everyone who made this project possible
+Original Design Idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
