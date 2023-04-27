@@ -25,6 +25,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [⭐️ Credits](#credits)
 - [🙏 Acknowledgements](#acknowledgements)
 
 <!-- PROJECT DESCRIPTION -->
@@ -32,6 +33,8 @@
 # 📖 PORTFOLIO WEBSITE <a name="about-project"></a>
 
 **Website Development Course Bootcamp** is a website which provides an online platform to learn web development by recieving lessons from different preofessionals in the field.
+<p>Link to deployed project: [Capstone project - A website for an upcoming conference](https://debygrey.github.io/web-development-course-website/) </p>
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
