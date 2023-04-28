@@ -1,12 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/38b6d4ab77.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Web Development Course Summit | Home</title>
+  </head>
+  <body>  
+  <!-- header -->
+    <header>
+      <!--mobile menu-->
+      <div class="mobile-menu show-menu">
+        <img id="close-hamburger" src="./img/close-btn.png" alt="close hamburger icon"/>
+        <ul class="flex-column">
+          <li class="menu-item">
+            <a class="text-20 custom-white" href="index.html">Home</a>
+          </li>
+          <li class="menu-item">
+            <a class="text-20 custom-white" href="about.html">About</a>
+          </li>
+          <li class="menu-item">
+            <a class="text-20 custom-white" href="#">Program</a>
+          </li>
+          <li class="menu-item">
+            <a class="text-20 custom-white" href="#">Join</a>
+          </li>
+          <li class="menu-item">
+            <a class="text-20 custom-white" href="#">Sponsor</a>
+          </li>
+          <li class="menu-item">
+            <a class="text-20 custom-white" href="#">News</a>
+          </li>
+          <li class="menu-item">
+            <a class="text-20 custom-white" href="#">My page</a>
+          </li>
+          <li class="menu-item">
+            <a class="text-20 custom-white" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+      <!-- top bar -->
+      <div class="top-bar flex-row">
+        <a href="#"><img src="./img/facebook.png" alt="facebook icon" /></a>
+        <a href="#"><img src="./img/twitter.png" alt="twitter icon"/></a>
+        <a href="#" class="text-12-LH-14">English</a>
+        <a href="#" class="text-12-LH-14">My Page</a>
+        <a href="#" class="text-12-LH-14">Logout</a>
+      </div>
+      <!-- Menu items -->
+      <nav class="">
+        <!-- Hamburger-->
+        <img
+          id="hamburger"
+          class="hamburger"
+          src="./img/mobile-menu-1.png"
+          alt="hamburger icon"
+        />
+        <!-- LOGO -->
+        <a href="index.html">
+          <img class="logo" src="./img/logo.png" alt="logo" />
+        </a>
+        <ul>
+          <a href="about.html" class="text-14-bold">About</a>
+          <a href="#" class="text-14-bold">Program</a>
+          <a href="#" class="text-14-bold">Join</a>
+          <a href="#" class="text-14-bold">Sponsor</a>
+          <a href="#" class="text-14-bold">News</a>
+          <!-- Action button -->
+          <a href="#" class="action-btn-1 text-14-bold">WD Campaign</a>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero section -->
+    <section class="hero-container flex-column">
+      <div class="hero flex-column">
+        <div class="hero-title">
+        </div>
+        <p class="sub-theme flex-row text-12 big-text-20 custom-gray-2">
+          A joyful celebration believing in the value of openness and sharing,
+          creating a positive change with people from over 80 countries is
+          taking place in October, in Korea.
+        </p>
+        <div class="date-venue flex-column">
+          <h1 class="custom-gray-3 text-20-bold big-text-42">2023.10.19(THU) ~ 20(FRI)</h1>
+          <p class="custom-gray-4 text-13 big-text-27">
+            @ National Museum of Karea, Art Center Nabi and more
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Program section-->
+    <section class="program-container">
+      <div class="program flex-column">
+        <div class="title flex-column">
+          <h4 class="custom-white text-20 flex-row">Main Program</h4>
+          <div class="title-underline"></div>
+        </div>
+        <div class="program-details">
+          <div class="program-card">
+            <div class="icon-box">
+              <img src="./img/lecture-icon.png" alt="lecture icon"/>
+            </div>
+            <div class="program-card-texts">
+              <h3 class="custom-red-2 text-14 big-text-20">Lecture</h3>
+              <p class="custom-white text-10 big-text-12">
+                Listen to the speakers from various countries about the messages
+                of sharing and opening.
+              </p>
+            </div>
+          </div>
+          <div class="program-card">
+            <div class="icon-box">
+              <img src="./img/exhibition-icon.png" alt="exhibition icon"/>
+            </div>
+            <div class="program-card-texts">
+              <h3 class="custom-red-2 text-14 big-text-20">CC Exhibition</h3>
+              <p class="custom-white text-10 big-text-12">
+                Appreciate various creations applying CC license of artists,
+                organized from Art Center Nabi
+              </p>
+            </div>
+          </div>
+          <div class="program-card">
+            <div class="icon-box">
+              <img src="./img/forum-icon.png" alt="forum icon"/>
+            </div>
+            <div class="program-card-texts">
+              <h3 class="custom-red-2 text-14 big-text-20">Forum</h3>
+              <p class="custom-white text-10 big-text-12">
+                Have the time to share your thoughts and opinions with experts
+                for each topic.
+              </p>
+            </div>
+          </div>
+          <div class="program-card">
+            <div class="icon-box">
+              <img src="./img/workshop-icon.png" alt="workshop icon"/>
+            </div>
+            <div class="program-card-texts">
+              <h3 class="custom-red-2 text-14 big-text-20">Workshop</h3>
+              <p class="custom-white text-10 big-text-12">
+                Try creating your own work using open source license rather than
+                just watching at it.
+              </p>
+            </div>
+          </div>
+          <div class="program-card">
+            <div class="icon-box">
+              <img src="./img/ignite-icon.png" alt="ignite icon"/>
+            </div>
+            <div class="program-card-texts">
+              <h3 class="custom-red-2 text-14 big-text-20">CC Ignite</h3>
+              <p class="custom-white text-10 big-text-12">
+                get opportunities to network with CC affiliates around the
+                world, also after the summit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="action-btn-2 flex-row custom-white text-16">
+          Join WD Global Summit 2023
+        </button>
+        <a class="btn-alt custom-white text-20-B" href="#">SEE THE WHOLE PROGRAM</a>
+      </div>
+    </section>
+    <!-- Speaker section-->
+    <section class="speakers-container flex-column">
+      <div class="speakers-content"></div>
+    </section>
+     <!-- partners section -->
+    <section class="partners-container index-partner">
+      <div class="partners-content">
+        <div class="partners-text flex-column">
+          <h3 class="text-20-C custom-white big-text-30 big-screen-gray">Partner</h3>
+          <div class="title-underline"></div>
+        </div>
+        <div class="partners-logo flex-row">
+          <img class="logo-item" src="./img/mozilla.png"  alt="mozilla icon"/>
+          <img class="logo-item" src="./img/google.png" alt="google icon"/>
+          <img class="logo-item" src="./img/naver.png" alt="naver icon"/>
+          <img class="logo-item" src="./img/daumkakao.png" alt="daumkakao icon"/>
+          <img class="logo-item" src="./img/airbnb.png" alt="airbnb icon"/>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section -->
+    <section class="footer-container index-footer">
+      <div class="footer-content">
+        <img class="cck-logo" src="./img/cck-logo.png" alt="cck logo"/>
+        <img class="cck-logo-white" src="./img/cck-logo-white.png" alt="cck logo white"/>
+        <p class="custom-gray-9 text-10-LH-13 big-text-17">
+          2015 Creative Commons Korea. Some Rights Reserved.
+        </p>
+      </div>
+    </section>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
 </html>
